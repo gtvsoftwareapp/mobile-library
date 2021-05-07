@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dl_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.act003.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/f_content_menu"
+            android:name="com.example.modelproject.ui.act003.FContentMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fcontent_menu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/branco"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/f_option_menu"
+            android:name="com.example.modelproject.ui.act003.FOptionMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/foption_menu" />
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
