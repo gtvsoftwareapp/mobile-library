@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <!---<color name="colorAccent">#D81B60</color>-->
-    <color name="colorAccent">#F45302</color>
-
-    <!---Terra Viva-->
-    <color name="verde">#52B032</color>
-    <color name="verde_escuro">#34731E</color>
-    <color name="branco">#FFFFFF</color>
-    <color name="preto">#000000</color>
-    <color name="laranja">#F45302</color>
-    <color name="vermelho">#FF0000</color>
-
-    <color name="cinza">#777373</color>
-    <color name="cinza_claro">#E7E6E6</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>
